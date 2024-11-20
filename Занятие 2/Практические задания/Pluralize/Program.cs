@@ -1,13 +1,17 @@
-﻿using NUnitLite;
 
-namespace Pluralize;
+﻿using System;
+using NUnitLite;
 
-public static class Program
+namespace Pluralize
 {
-    public static void Main(string[] args)
+
+    public static class Program
     {
-        //Это магия запускает код из Pluralize_Should. В этом файле находятся тесты
-        //Что такое тесты мы разберем в следующей теме
-        new AutoRun().Execute(args);
+        public static void Main(string[] args)
+        {
+            //Это магия запускает код из Pluralize_Should. В этом файле находятся тесты
+            //Что такое тесты мы разберем в следующей теме
+            new AutoRun().Execute(args);
+        }
     }
 }
